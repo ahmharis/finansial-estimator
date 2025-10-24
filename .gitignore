@@ -1,0 +1,15 @@
+Abaikan dependensi
+/node_modules
+
+Abaikan file environment lokal
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+Abaikan build folder Next.js
+/.next/
+
+Abaikan file sistem operasi
+.DS_Store
+Thumbs.db
