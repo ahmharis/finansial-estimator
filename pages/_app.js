@@ -1,7 +1,16 @@
-import '@/styles/globals.css'
+import '../styles/globals.css'; // <-- INI PERBAIKANNYA
+import Head from 'next/head';
 
-// File ini memuat file CSS global untuk seluruh aplikasi Anda
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <title>Proyeksi Finansial UMKM</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
+export default MyApp;
