@@ -1,0 +1,10 @@
+/* Mengimpor basis, komponen, dan utilitas Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* (Opsional) Anda bisa menambahkan gaya global kustom di sini */
+body {
+  /* Contoh: @apply bg-gray-100; */
+}
+
